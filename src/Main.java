@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // Load the list of words from a file.
         WordListLoader wordListLoader = new WordListLoader();
-        wordListLoader.loadWordsFromFile("/Users/mickelsamuel/Desktop/Wordle/words.txt");
+        wordListLoader.loadWordsFromFile("src/words.txt");
 
         // Retrieve the loaded word list and initialize the Wordle solver with it.
         List<String> words = wordListLoader.getWordList();
